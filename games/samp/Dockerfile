@@ -1,6 +1,6 @@
 FROM        --platform=$TARGETOS/$TARGETARCH debian:bookworm-slim
 
-LABEL       author="QuintenQVD" maintainer="josdekurk@gmail.com"
+LABEL       author="SkyNest Cloud" maintainer="skynest@official.net"
 
 RUN         apt update \
             && apt -y upgrade
